@@ -83,6 +83,9 @@ DATABASES = {
         'PASSWORD': 'geheim',
         'HOST': '127.0.0.1',
         'PORT': '6543',
+        'OPTIONS': {    # set schema
+            'options': '-c search_path=archive,public'
+        }
     },
     'sqlite': {
         'ENGINE': 'django.db.backends.sqlite3',
