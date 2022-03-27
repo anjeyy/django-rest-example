@@ -87,10 +87,21 @@ DATABASES = {
             'options': '-c search_path=archive,public'
         }
     },
-    'sqlite': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    #'sqlite': {
+    #    'ENGINE': 'django.db.backends.sqlite3',
+    #    'NAME': BASE_DIR / 'db.sqlite3',
+    #},
+    #'TEST': {
+    #    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #    'NAME': 'postgres',
+    #    'USER': 'postgres',
+    #    'PASSWORD': 'geheim',
+    #    'HOST': '127.0.0.1',
+    #    'PORT': '6543',
+    #    'OPTIONS': {  # set schema
+    #        'options': '-c search_path=archive,public'
+    #    }
+    #},
 }
 
 
