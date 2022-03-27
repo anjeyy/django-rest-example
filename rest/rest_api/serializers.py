@@ -1,4 +1,3 @@
-from pip._internal.cli.cmdoptions import list_exclude
 from rest_framework import serializers
 
 from .models import Document
